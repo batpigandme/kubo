@@ -9,10 +9,14 @@ enableEmoji = true
 Paginate = 4
 [Params]
   RSSLink = "/index.xml"
-  author = "Mara Averick" # add your company name
+  author = "Mara Averick"
+  dateFormat = "2006/01/02"
   github = "batpigandme" # add your github profile name
   twitter = "dataandme" # add your twitter profile
   email = "maraaverick@gmail.com"
+
+  # Format dates with Go's time formatting
+  date_format = "2006-01-02"
 
 [[menu.main]]
     name = "Docs"
